@@ -16,13 +16,13 @@ function calcularAreaRectangulo(base, altura) {
 
 // Ejercicio 3: esPalindromo
 function esPalindromo(cadena) {
-  var cadenaInvertida = cadena.split("").reverse().join("");
+  let cadenaInvertida = cadena.split("").reverse().join("");
   return cadena === cadenaInvertida;
 }
 
 // Ejercicio 4: generarNumeroAleatorio
 function generarNumeroAleatorio() {
-  var numero = Math.floor(Math.random() * 10) + 1;
+  let numero = Math.floor(Math.random() * 10) + 1;
   return numero;
 }
 // Ouput de las funciones

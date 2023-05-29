@@ -28,22 +28,22 @@ function obtenerPromedioPonderado(notas, pesos) {
   if (notas.length !== pesos.length) {
     throw new Error("Los arreglos deben tener la misma longitud");
   }
-  var sumaProductos = 0;
-  var sumaPesos = 0;
-  for (var i = 0; i < notas.length; i++) {
+  let sumaProductos = 0;
+  let sumaPesos = 0;
+  for (let i = 0; i < notas.length; i++) {
     sumaProductos += notas[i] * pesos[i];
     sumaPesos += pesos[i];
   }
-  var promedioPonderado = sumaProductos / sumaPesos;
+  let promedioPonderado = sumaProductos / sumaPesos;
 
   return promedioPonderado;
 }
 
 //Ejercicio 4
 function obtenerMaximo(arreglo) {
-  var maximo = arreglo[0];
+  let maximo = arreglo[0];
 
-  for (var i = 1; i < arreglo.length; i++) {
+  for (let i = 1; i < arreglo.length; i++) {
     if (arreglo[i] > maximo) {
       maximo = arreglo[i];
     }
