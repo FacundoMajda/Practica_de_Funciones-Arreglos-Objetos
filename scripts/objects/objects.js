@@ -1,8 +1,8 @@
 // Ejercicio 1 Objeto Producto y función calcularTotal
 let producto = {
   nombre: "Camisa",
-  precio: 25,
-  cantidad: 2,
+  precio: 250,
+  cantidad: 3,
 };
 
 function calcularTotal(producto) {
@@ -14,7 +14,7 @@ console.log("Total a pagar:", totalAPagar);
 
 // Ejercicio 2 Objeto Persona y función presentarPersona
 let persona = {
-  nombre: "Juan",
+  nombre: "Lucas",
   edad: 30,
   profesion: "Ingeniero",
 };
